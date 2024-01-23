@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register_Project</title>
+    <link rel="stylesheet" href="../../2EWE1/FONTS/font-awesome-4.7.0/css/font-awesome.css">
+    <link rel="stylesheet" href="../../BOOTSTRAP/bootstrap-4.5.3-dist/bootstrap-4.5.3-dist/css/bootstrap.css">
+    
+    <link rel="stylesheet" href="./style.css">
+	
+
+
+</head>
+<body>
+    <form class="from-group col-md-4 offset-4 card container mt-4" action="" onsubmit=" return fn()">
+        <h3 style="text-align: center;" class="mt-2">Register</h3>
+        <hr>
+        <!-- firstname start here -->
+        <label for="fname">Firstname <span style="color: red;">*</span></label> 
+        <input type="text" id="fname" name="firstname" placeholder="First Name" class="form-control" >
+        <h6 id="h6fname" style="color: red;"></h6>
+
+        <!--     style="border: 2px solid red;"  Only Alphabates Are Allowed   firstname ends here -->
+
+        <label for="lname">MiddleName <span style="color: red;">*</span></label> 
+        <input type="text" id="lname" name="middlename" name="lastname" placeholder="Last Name" class="form-control">
+        <h6 id="h6lname" style="color: red;"></h6>
+
+        <!-- lastname start here -->
+        <label for="lname">Lastname <span style="color: red;">*</span></label> 
+        <input type="text" id="lname" name="lastname" placeholder="Last Name" class="form-control">
+        <h6 id="h6lname" style="color: red;"></h6>
+        <!-- lastname ends here -->
+
+        <!-- email section start here -->
+        <label for="email">Email Address <span style="color: red;">*</span></label>     
+        <input type="" id="email" name="email" placeholder="Email Address" class="form-control">
+        <h6 id="h6email" style="color: red;"></h6>
+        <!-- email section ends here -->
+
+        <!-- mobileno section starts here -->
+        <label for="mob">Mobile Number <span style="color: red;">*</span></label>
+        <input type="text" id="mob" name="mob" placeholder="8796542310" class="form-control">
+        <h6 id="h6mob" style="color: red;"></h6>
+        <!-- mobileno section ends here -->
+
+        <!-- password section start here -->
+        <label for="pwd">Password <span style="color: red;">*</span></label>
+        <input type="text" id="pwd" name="pwd" placeholder="Password" class="form-control" >
+        <h6 id="h6pwd" style="color: red;"></h6>
+        <!--password section ends here -->
+
+        <!-- confirm password start here -->
+        <label for="con_pwd">Confirm Password <span style="color: red;">*</span></label>
+        <input type="text" id="con_pwd" name="con_pwd" placeholder="Confirm Password" class="form-control">
+        <h6 id="h6con_pwd" style="color: red;"></h6>
+        <!-- confirm password section ends here -->
+
+        <label>Cousre<span style="color: red;">*</span></label>
+        <select name="Course" id="">
+            <option value="">Please Select</option>
+            <option value="B.E">B.E</option>
+            <option value="BAF">BAF</option>
+            <option value="BBI">BBI</option>
+            <option value="B.COM">B.COM</option>
+            <option value="MBA">MBA</option>
+        </select>
+
+        <label>Gender<span style="color: red;">*</span></label>
+        <select name="Gender" id="">
+            <option value="">Please Select</option>
+            <option value="Male">Male</option>
+            <option value="Female">Female</option>
+            <option value="Other">Other</option>
+        </select>
+
+
+        
+             <div class="g-recaptcha" data-sitekey="6Lcxy-8ZAAAAAFAZlti5mP0PyRGv5fsZJe31Q6WD"></div> 
+		
+
+
+
+        <!-- button section start here -->
+        <button class="btn btn-success mt-3 mb-3">SIGN UP</button>
+        
+        <!-- button section ends here  -->
+
+
+
+            
+        <script src="./app.js"></script> 
+        
+    </form>
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+</body>
+</html>
